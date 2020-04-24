@@ -37,7 +37,6 @@ header nav #navb {
     clear: both;
     font-size: 40px;
 }*/
-#c_name h1 {
 #c_name h1, .navbar-brand h1 {
     color: ghostwhite;
     float: left;
