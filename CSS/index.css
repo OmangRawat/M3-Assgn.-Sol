@@ -1,0 +1,117 @@
+body {
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    width: 100vw;
+}
+nav {
+    padding: 0px;
+    width: 100%;
+}
+#container {
+    margin: 0px;
+}
+header #navb {
+    background-color: darkviolet;
+    min-width: 130px;
+    position: relative;
+    margin: 0 auto 0;
+}
+/*
+header nav #navb {
+    background-color: darkviolet;
+    min-width: 100%;
+    position: relative;
+    margin: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+#navbar-brand {
+    color: ghostwhite;
+    float: left;
+    padding: 10px;
+    border: ridge;
+    clear: both;
+    font-size: 40px;
+}*/
+#c_name h1 {
+    color: ghostwhite;
+    float: left;
+    padding: 10px;
+    border: ridge;
+    clear: both;
+}
+#nav_button {
+    background-color: ghostwhite;
+    color: black;
+    position: absolute;
+    right: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border: double;
+    visibility: hidden;
+    size: 2vw;
+}
+#nav_button:hover  {
+    background-color: rgb(193, 233, 247);
+}
+.navbar-collapse {
+    width: 100%;
+    min-width: 120px;
+    background-color: black;
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+    border: black solid;
+}
+.line {
+    border: dotted thin;
+    color: white;
+    width: 80%;
+}
+#heading {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box {
+    float: left;
+    text-align: center;
+    min-width: 120px;
+    background-color: deepskyblue;
+    border: double;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.subh {
+    text-align: center;
+}
+.subh h4 {
+    text-align: center;
+    margin: 10px;
+    font-size: 150%;
+}
+/******************************Super Small*******************************/
+@media (max-width: 280px) {
+    #nav_button {
+        position: static;
+        align-self: center;
+        right: 0px;
+    }
+    #c_name h1 {
+        font-size: 15vw;
+        float: none;
+        text-align: center;
+        margin-bottom: 5px;
+        min-width: 100px;
+    }
+}
+/**********************************Small Devices***************************/
+@media (max-width: 767px) {
+    #nav_button {
+        visibility: visible;
+    }
+}
